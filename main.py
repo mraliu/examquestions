@@ -10,3 +10,10 @@ grid = [['T','O','P','S','E'],
  ['U','O','G','G','Q']]
 
 print(grid)
+
+for row in range (0,len(grid)):
+
+
+   for col in range (0,len(grid[row])):
+     print(row, col)
+     
